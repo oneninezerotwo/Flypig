@@ -1,0 +1,131 @@
+.promotion {
+  color: #3d3d3d;
+  line-height: .53333rem;
+  font-size: .32rem;
+  background-color: #fff;
+  margin-top: .24rem;
+  padding-left: .32rem;
+
+  .promotions {
+    display: flex;
+    position: relative;
+    padding: .30667rem 0;
+    font-size: .38667rem;
+    color: #333;
+
+    span {
+      -webkit-flex-shrink: 0;
+      flex-shrink: 0;
+      width: 1.01333rem;
+      color: #999;
+      line-height: 1;
+      padding-top: .08rem;
+    }
+
+    img {
+      padding-top: .12rem;
+      opacity: 1;
+      vertical-align: middle;
+      display: inline-block;
+      margin-right: .10667rem;
+      height: .34667rem;
+    }
+
+    .sp_p {
+      vertical-align: middle;
+      flex: 1;
+    }
+  }
+
+
+
+
+}
+
+.serve {
+  margin-top: .24rem;
+  background: #fff;
+  padding: .4rem .32rem .16rem;
+  color: #3d3d3d;
+  font-size: .32rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  flex-direction: row;
+
+  .serve_title {
+    font-size: 16px;
+    color: #999;
+    white-space: nowrap;
+  }
+
+  .serve_r {
+    margin-left: .32rem;
+    display: flex;
+    flex-direction: column;
+
+    img {
+      height: .4667rem;
+      width: 60px;
+      margin-right: .10667rem;
+    }
+
+    p {
+      line-height: .567rem;
+      width: auto;
+      margin-right: .10667rem;
+      margin-bottom: .24rem;
+    }
+  }
+
+}
+
+.pro_mark {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: -100%;
+  z-index: 100;
+  background: #fff;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  transition: all .3s;
+
+  .pro_title {
+    padding-top: .56rem;
+    padding-left: .32rem;
+    padding-right: .32rem;
+    padding-bottom: .32rem;
+    height: 11.46667rem;
+
+    h3 {
+      color: #333;
+      font-size: .4rem;
+      text-align: center;
+      line-height: 1;
+      margin-bottom: .4rem;
+    }
+
+    p {
+      color: #666;
+      font-size: .37333rem;
+      line-height: .53333rem;
+    }
+  }
+
+  .pop-action-wrapper {
+    height: 1.06667rem;
+    background-color: #fff;
+    padding: .24rem .32rem;
+
+    .pop-action-orange {
+      color: #fff;
+      background: #ff5000;
+    }
+  }
+}

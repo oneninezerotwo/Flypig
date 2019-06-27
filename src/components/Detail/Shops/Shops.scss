@@ -1,0 +1,82 @@
+.shop {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  margin-top: .24rem;
+  padding: .4rem .32rem;
+  background: #fff;
+
+  .shop-l {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    flex: 1;
+    display: flex;
+
+    .shop-logo {
+      width: 1.30667rem;
+      height: 1.30667rem;
+      border-radius: .08rem;
+      margin-right: .32rem;
+    }
+
+    .shop-text {
+      .shop-t {
+        color: #333;
+        font-size: .49667rem;
+        line-height: .6rem;
+        margin-bottom: .10667rem;
+      }
+
+      img {
+        max-height: .47333rem;
+      }
+
+    }
+  }
+
+  .shop-r {
+    padding-right: .42667rem;
+    min-width: 2.44rem;
+    font-size: .32rem;
+
+    .shop-b {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      align-items: center;
+      margin-bottom: .21333rem;
+
+      .describe {
+        color: #999;
+        margin-right: .17333rem;
+      }
+
+      .grade {
+        color: #e90;
+        margin-right: 0.22rem;
+      }
+
+      .shop-img {
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAYFBMVEX/8uz/8e7/8ev/UAD/6+L/077/x63/0Lv/uJj/ZR7/iFH/aiX/jVj/1sP/VAX/7ub/m2z/8On/6+H/oHT/eDn/wqb/vJ3/sIz/fED/cC7/YBf/WQ3/zLT/tpT/ilP/hEuEPUnjAAAAAnRSTlPjSQzAlCMAAACHSURBVCjPhdLbFoIgEIVhAkosDBE8d3j/t8zI9gJGl//VrP3dDjsxvtEyY0/DToqgebc5nH+Nw3oAZpE0A2gAc0MyBfGsQko0GTgVchnYKzIR2EuSBUgxlWgSMoKCoyIDdw/VBOrX99Ib4NWSp9DpUEdgre2HkgPMWP2h9/oByDuAHWG77/MBAbEKTghDpGEAAAAASUVORK5CYII=) no-repeat 50%;
+        background-size: 100%;
+        display: block;
+        width: .42rem;
+        height: .42rem;
+      }
+    }
+  }
+}

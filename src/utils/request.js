@@ -1,4 +1,15 @@
 import fetch from 'dva/fetch';
+import axios from "axios"
+
+export default async function request(options) {
+  let response
+  try {
+    response = await axios(options)
+    return response
+  } catch (err) {
+    return response
+  }
+}
 
 function parseJSON(response) {
   return response.json();
@@ -25,6 +36,10 @@ export default function request(url, options) {
   return fetch(url, options)
     .then(checkStatus)
     .then(parseJSON)
-    .then(data => ({ data }))
-    .catch(err => ({ err }));
+    .then(data => ({
+      data
+    }))
+    .catch(err => ({
+      err
+    }));
 }
