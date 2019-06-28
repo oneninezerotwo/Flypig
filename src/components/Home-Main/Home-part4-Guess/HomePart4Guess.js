@@ -39,7 +39,6 @@ export default withRouter(
                       (this.safdas = () => {
                         document.documentElement.scrollTop = document.body.scrollTop = 0;
                         this.props.history.push("/detail");
-                        console.log(this.props.history);
                       })
                     }
                   >
