@@ -1,0 +1,312 @@
+.tripLike {
+  border: 0px solid black;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  flex-direction: column;
+  align-content: flex-start;
+  flex-shrink: 0;
+  background-color: transparent;
+  overflow: hidden;
+  width: 375px;
+  top: 0px;
+  left: 0px;
+
+  >div {
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+    place-content: flex-start space-between;
+    flex-shrink: 0;
+    -webkit-box-pack: justify;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 12px;
+
+    span {
+      white-space: pre-wrap;
+      border: 0px solid black;
+      position: relative;
+      box-sizing: border-box;
+      display: block;
+      -webkit-box-orient: vertical;
+      flex-direction: column;
+      align-content: flex-start;
+      flex-shrink: 0;
+      color: rgb(51, 51, 51);
+    }
+
+    span:nth-child(1) {
+      font-size: 24px;
+      font-weight: 600;
+      margin-left: 12px;
+
+    }
+
+    span:nth-child(2) {
+      font-size: 13px;
+      -webkit-box-align: center;
+      align-items: center;
+      margin-right: 12px;
+      font-weight: 300;
+
+    }
+  }
+}
+
+
+.tripSmallBox {
+  border: 0px solid black;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  flex-direction: column;
+  align-content: flex-start;
+  flex-shrink: 0;
+
+  .innerBox {
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+    place-content: flex-start space-between;
+    flex-shrink: 0;
+    margin-left: 12px;
+    margin-right: 12px;
+    -webkit-box-pack: justify;
+    margin-bottom: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding-bottom: 0px;
+
+    >div {
+      border: 0px solid black;
+      position: relative;
+      box-sizing: border-box;
+      display: flex;
+      -webkit-box-orient: vertical;
+      flex-direction: column;
+      align-content: flex-start;
+      flex: 1 1 0%;
+      -webkit-box-flex: 1;
+
+      >a {
+        text-decoration: none;
+        border: 0px solid black;
+        position: relative;
+        box-sizing: border-box;
+        display: flex;
+        -webkit-box-orient: vertical;
+        flex-direction: column;
+        place-content: flex-start center;
+        flex-shrink: 0;
+        cursor: pointer;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+
+        .tripPhoto {
+          border: 0px solid black;
+          position: relative;
+          box-sizing: border-box;
+          display: flex;
+          -webkit-box-orient: vertical;
+          flex-direction: column;
+          place-content: flex-start center;
+          flex-shrink: 0;
+          height: 171px;
+          width: 171px;
+          -webkit-box-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          border-top-right-radius: 6px;
+          border-top-left-radius: 6px;
+          background-color: rgb(94, 150, 145);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+        }
+
+        .tripInfo {
+          border: 0px solid black;
+          position: relative;
+          box-sizing: border-box;
+          display: flex;
+          -webkit-box-orient: vertical;
+          flex-direction: column;
+          align-content: flex-start;
+          flex-shrink: 0;
+          background-color: rgb(255, 255, 255);
+          border-bottom-left-radius: 6px;
+          border-bottom-right-radius: 6px;
+          height: 104px;
+          width: 171px;
+
+          >span {
+            white-space: pre-wrap;
+            border: 0px solid black;
+            position: relative;
+            box-sizing: border-box;
+            display: block;
+            -webkit-box-orient: vertical;
+            flex-direction: column;
+            align-content: flex-start;
+            flex-shrink: 0;
+            font-size: 12px;
+            margin-top: 12px;
+            height: 16.5px;
+            line-height: 16.5px;
+            font-weight: 600;
+            text-overflow: ellipsis;
+            width: 147px;
+            margin-left: 12px;
+          }
+
+          .tripSubject {
+            border: 0px solid black;
+            position: relative;
+            box-sizing: border-box;
+            display: flex;
+            -webkit-box-orient: vertical;
+            flex-direction: column;
+            align-content: flex-start;
+            flex-shrink: 0;
+            margin-top: 3px;
+            margin-left: 12px;
+
+            >span {
+              white-space: pre-wrap;
+              border: 0px solid black;
+              position: relative;
+              box-sizing: border-box;
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              flex-direction: column;
+              align-content: flex-start;
+              flex-shrink: 0;
+              font-size: 13px;
+              font-weight: 600;
+              color: rgb(51, 51, 51);
+              height: 36px;
+              line-height: 18.5px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              width: 147px;
+              -webkit-line-clamp: 2
+            }
+          }
+
+          .tripPrice {
+            border: 0px solid black;
+            position: relative;
+            box-sizing: border-box;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            flex-direction: row;
+            place-content: flex-start space-between;
+            flex-shrink: 0;
+            width: 147px;
+            margin-left: 12px;
+            margin-top: 9px;
+            height: 18px;
+            -webkit-box-align: end;
+            align-items: flex-end;
+            -webkit-box-pack: justify;
+
+            >div:nth-child(1) {
+              border: 0px solid black;
+              position: relative;
+              box-sizing: border-box;
+              display: flex;
+              -webkit-box-orient: horizontal;
+              flex-direction: row;
+              align-content: flex-start;
+              flex-shrink: 0;
+              -webkit-box-align: end;
+              align-items: flex-end;
+              width: 125px;
+              height: 14px;
+              overflow: hidden;
+
+              >span {
+                white-space: pre-wrap;
+                border: 0px solid black;
+                position: relative;
+                box-sizing: border-box;
+                display: block;
+                -webkit-box-orient: vertical;
+                flex-direction: column;
+                align-content: flex-start;
+                flex-shrink: 0;
+              }
+
+              >span:nth-child(1) {
+                font-size: 11px;
+                color: rgb(255, 80, 0);
+                line-height: 11px;
+                height: 11px;
+              }
+
+              >span:nth-child(2) {
+                font-size: 16px;
+                color: rgb(255, 80, 0);
+                line-height: 15px;
+                height: 15px;
+              }
+
+              >span:nth-child(3) {
+                font-size: 11px;
+                color: rgb(153, 153, 153);
+                margin-left: 4px;
+                height: 11px;
+                line-height: 11px;
+              }
+            }
+
+            >div:nth-child(2) {
+              border: 0px solid black;
+              position: relative;
+              box-sizing: border-box;
+              display: flex;
+              -webkit-box-orient: vertical;
+              flex-direction: column;
+              place-content: flex-start center;
+              flex-shrink: 0;
+              cursor: pointer;
+              -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+              width: 18px;
+              height: 18px;
+              padding-top: 6px;
+              -webkit-box-align: center;
+              align-items: center;
+              -webkit-box-pack: center;
+
+              img {
+                display: flex;
+                width: 14px;
+                height: 4px;
+                line-height: 18px;
+              }
+            }
+          }
+        }
+      }
+
+      >div::nth-child(1) {
+        margin-left: 0px;
+      }
+
+      >div::nth-child(2) {
+        margin-left: 9px;
+      }
+    }
+  }
+}

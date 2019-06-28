@@ -1,0 +1,88 @@
+.quiz {
+  padding-bottom: .32rem;
+  background: #fff;
+  font-size: .39667rem;
+}
+
+.quiz-top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  padding: 0 .32rem;
+  height: 1.2rem;
+}
+
+.quiz-t {
+  font-size: .5rem;
+  font-weight: 700;
+  line-height: .48rem;
+  color: #333;
+}
+
+.quiz-r {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -moz-justify-content: flex-end;
+  justify-content: flex-end;
+  height: 100%;
+  color: #fca500;
+  text-align: right;
+}
+
+.question {
+  padding: 0 .32rem;
+  color: #3d3d3d;
+}
+
+.question-t {
+  line-height: .44rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: justify;
+  -moz-justify-content: justify;
+  justify-content: justify;
+  margin-bottom: .21333rem;
+}
+
+.question-t .icon {
+  display: block;
+  margin-top: .05333rem;
+  margin-right: .08rem;
+  width: .42rem;
+  height: .42rem;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAA4VBMVEX/owD/fgD/eQD/VAD/fgD/pAD/VAD/////cAD/fAD/eQD/bQD/hQD/iAD/iwD/dAD/ZQD/dgD/lgD/kwD/aQD/ggH/YQD/gAH/kAH/fgD/jQD/XAD/mQD/XwD/zqT/zJr/awL/VwD/n07/nQD/mwD/1Kn/kDT/WQD/pk7/mE7/rk3/jyD/hB3/1qn/xpn/q07/k0z/pUb/oUb/lTT/nwD/z5X/sHr/sU7/rUb/lCD/jB3/9Of/5tH/5Mb/1Lj/37f/0LH/uYr/zIn/vGL/nED/ikD/qTj/ki3/kib/kxP/chIcqIWfAAAAB3RSTlPj4+PjSUlJDbLXEAAAAVJJREFUKM9NkOd6wjAMRQWllWMnBEMmSSCMUkrZFAp07/H+D1TJjA/9POd+8rXgHG473W6aVmu1KCqXHcf2/TAulIB4p5tWmdcNt4lbVpHz6Z6TOHApYZd/fzN7jlxr2OXXOKiXR6PRJc9CSu3Cfs/y/tdZNs1gm7gA5l/P9ehxfdiDbeICiEd3eLof264RtZ0obzY3NLEkIYRQwD0H6DgzNLPQmoXKgTgLe4Y/2+0Ce9oloZQH/K8B2iR8yxpizxV4rXLPA+LOBG1/jqElSQgWnlcB6kPCD0nIg/AqFSPsCYbxHJvjcYOEMiIA7t/H2PpumBmqHKfEM+D795Hvqelf3IdEQIL/S4LuSVhQnz+cEk+A79BHzjNXq9UT5lmWJMD3+XjQvEdR/vVl/BkQvwK+2zHPPQPDW3DC8xPegsL+XUV5z/CM+RmUitLlnkeeGH7xD1ITMUp5PifPAAAAAElFTkSuQmCC) no-repeat 50%;
+  background-size: 100%;
+}
+
+.question-c {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+
+}

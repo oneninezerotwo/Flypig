@@ -1,0 +1,9 @@
+.pop_mark {
+  position: fixed;
+  z-index: 99;
+  top: -100px;
+  left: 0;
+  bottom: -100px;
+  right: 0;
+  background-color: rgba(0, 0, 0, .6);
+}

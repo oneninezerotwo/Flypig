@@ -1,0 +1,17 @@
+.headBoardBox {
+  border: 0px solid black;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  flex-direction: column;
+  align-content: flex-start;
+  flex-shrink: 0;
+  transform: translateX(0px) translateY(0px) translateZ(0px) scaleX(1) scaleY(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+
+  img {
+    display: flex;
+    width: 375px;
+    z-index: 0;
+  }
+}

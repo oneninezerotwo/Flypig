@@ -1,0 +1,17 @@
+.homeBox {
+  border: 0px solid black;
+  position: absolute;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  flex-direction: column;
+  align-content: flex-start;
+  flex: 1 1 0%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 375px;
+  -webkit-box-flex: 1;
+  background-color: rgb(247, 247, 247);
+}
