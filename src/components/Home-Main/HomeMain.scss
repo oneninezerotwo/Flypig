@@ -1,0 +1,28 @@
+.mainBox {
+  border: 0px solid black;
+  position: absolute;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  flex-direction: column;
+  align-content: flex-start;
+  flex: 1 1 0%;
+  -webkit-box-flex: 1;
+  top: 44px;
+  bottom: 0px;
+  width: 375px;
+  // overflow: scroll;
+
+  >div {
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+
+
+  }
+}
